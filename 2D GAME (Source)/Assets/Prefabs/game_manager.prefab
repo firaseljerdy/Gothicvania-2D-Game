@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8870307222603621767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8870307222603621765}
+  - component: {fileID: 8870307222603621766}
+  m_Layer: 0
+  m_Name: game_manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8870307222603621765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8870307222603621767}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.587, y: 2.37, z: -0.022259556}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8870307222603621766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8870307222603621767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6eed8712b987c745b259f396acdac83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCoinCollected: 0
+  isFleeCollected: 0
+  isDead: 0
+  image_bomb: {fileID: 0}
+  image_flee: {fileID: 0}
+  box_inventory: {fileID: 0}
+  regular_ammo_instance: {fileID: 0}
+  treant_enemy_instance: {fileID: 0}
+  frenzy_sky_obj: {fileID: 0}
+  frenzy_sun_obj: {fileID: 0}
+  particle_frenzy: {fileID: 0}
+  score_txt: {fileID: 1257180931163863646, guid: 1630f00403c049d46b42bfcb59cda29e,
+    type: 3}
